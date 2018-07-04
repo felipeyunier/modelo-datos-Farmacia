@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1E18F32-52E6-D059-49BA-465B9823936E" schemaObject="24EED176-9DA1-06E5-DE00-9A609A574EA5" name="cod_tipo_moneda">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:18:50 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="38F0D1F5-DEFE-4516-521A-9717A5E2657C">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:19:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="C4D77273-BCBC-5BFA-14C8-9BBAAF6470E8">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:20:33 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F03F8FEA-7DF0-AC3F-BC2E-08A7A06F6657" name="cod_tipo_moneda_PK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:19:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38F0D1F5-DEFE-4516-521A-9717A5E2657C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

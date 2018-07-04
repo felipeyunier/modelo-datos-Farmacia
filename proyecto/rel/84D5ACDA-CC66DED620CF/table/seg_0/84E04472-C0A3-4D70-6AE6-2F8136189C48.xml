@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84E04472-C0A3-4D70-6AE6-2F8136189C48" schemaObject="24EED176-9DA1-06E5-DE00-9A609A574EA5" name="producto_operacion">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:30:23 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="producto" id="F66D0697-DEA0-6952-7399-CE329E5B0DCC">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:31:15 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA7CC6D7-2C49-4B5A-8D1A-DFEBBA24FC12" referredColumn="9C12A83B-152F-C7C3-AD6F-FAE5D9CC7C55"/>
+</associations>
+</Column>
+<Column name="operacion" id="2AA99C50-239D-33FB-F6C9-8F3E8197DAD5">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:32:06 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E075743-3699-1CAB-9144-A8D87F599B93" referredColumn="D9548975-51FC-4251-8D6B-F5333B67938D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1DDD193-43B2-575E-2FAB-81CF0C6815A4" name="producto_operacion_PK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:33:45 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F66D0697-DEA0-6952-7399-CE329E5B0DCC"/>
+<colUsage columnID="2AA99C50-239D-33FB-F6C9-8F3E8197DAD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BDE4D8B-78A6-E3DE-9B9C-F68C80709FC6" name="operacion_FKv1">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:32:43 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AA99C50-239D-33FB-F6C9-8F3E8197DAD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B385F4BD-C807-B604-95C4-D31D20298109" name="producto_FK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:33:33 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F66D0697-DEA0-6952-7399-CE329E5B0DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

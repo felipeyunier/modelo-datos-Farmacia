@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96CF47B7-A07B-3CBA-AC67-6FF99B99B80C" schemaObject="24EED176-9DA1-06E5-DE00-9A609A574EA5" name="operacion_tipo_moneda">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:39:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="operacion" id="EC94266C-CBC7-1767-3F07-E073997249C1">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:40:22 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D23DA410-0526-833F-24F8-3727B8AFA27F" referredColumn="D9548975-51FC-4251-8D6B-F5333B67938D"/>
+</associations>
+</Column>
+<Column name="tipo_moneda" id="513B72E5-FB5B-7DCC-8C62-7D74BE8A20A6">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:40:57 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2E0EF0A-750B-02AC-6BFB-05EB82EE1458" referredColumn="38F0D1F5-DEFE-4516-521A-9717A5E2657C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F320A2C4-7F76-A3EF-E167-01EAE2C402F6" name="operacion_FKv2">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:42:54 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC94266C-CBC7-1767-3F07-E073997249C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B70848BC-C85F-D9EC-10E5-6D66B9F25436" name="tipo_moneda_FK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:45:37 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513B72E5-FB5B-7DCC-8C62-7D74BE8A20A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

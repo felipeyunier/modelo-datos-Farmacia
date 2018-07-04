@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5A3D2C4-6F8E-9E64-6491-83574602F729" schemaObject="5C7D65C5-1D25-EAAA-CA04-598C7988FA73" name="authority">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 18:45:03 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="authority" id="99E63C17-C61B-522A-50A3-77BB0FB38848">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 18:48:36 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="5A3000E6-6DA0-DC8A-9E42-DCC2502AD6E8">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 19:09:50 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="013F042A-A653-43BB-B8A5-F01E20D75E49" referredColumn="E8EAEA04-9F32-1D94-7B1F-65793D88EC6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BE528CB-BF6D-49E6-F148-DFE83ABB89DA" name="authority_pk">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 18:48:36 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99E63C17-C61B-522A-50A3-77BB0FB38848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB401371-F5DA-FA32-874C-B5592D96C48B" name="authority_user_fk">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 19:10:56 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A3000E6-6DA0-DC8A-9E42-DCC2502AD6E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

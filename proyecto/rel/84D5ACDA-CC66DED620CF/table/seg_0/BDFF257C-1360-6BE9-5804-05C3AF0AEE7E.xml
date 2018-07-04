@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDFF257C-1360-6BE9-5804-05C3AF0AEE7E" schemaObject="24EED176-9DA1-06E5-DE00-9A609A574EA5" name="operacion">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:32:56 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_operacion" id="D9548975-51FC-4251-8D6B-F5333B67938D">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:37:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_operacion" id="8A165B80-9DC5-8CAE-4A07-38B9A525F44D">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:38:31 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="1412D501-B85B-67B3-C97D-C2A3FCB4BC91">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:53:23 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_operacion" id="2DA208F7-C81D-CEB3-2257-40AD1A97C57D">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:18:21 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD9FF49-AEA2-0AD1-254D-EC4A320DDA9F" referredColumn="865B72AD-CC8D-BFC5-C83A-5A340262CF2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549855EF-E900-3760-97A8-40AC15781866" name="operacion_PK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 18:37:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9548975-51FC-4251-8D6B-F5333B67938D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC48AC60-CDCC-831A-0175-3A262C8D199E" name="tipo_operacion_FK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:18:21 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA208F7-C81D-CEB3-2257-40AD1A97C57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

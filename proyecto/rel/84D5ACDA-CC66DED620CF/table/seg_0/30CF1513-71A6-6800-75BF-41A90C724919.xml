@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30CF1513-71A6-6800-75BF-41A90C724919" schemaObject="24EED176-9DA1-06E5-DE00-9A609A574EA5" name="producto">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 19:47:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="E97C818E-8EB7-BA06-8E72-5B8E34D0D2B3">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 19:49:23 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laboratorio" id="07E0C1B5-3494-22FD-80BE-CC188FB4053E">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 20:24:06 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="concentracion" id="6442C400-FD21-8C8A-4A0C-A7E045E9FD04">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 20:25:49 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="13A592E2-36C4-0730-A842-2B50AE4A9DB3">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 19:55:26 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vendido" id="E71D03D3-895E-2E49-89AE-254F4D3FFA38">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 20:02:59 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_compra" id="876B20F7-BADE-851B-8D57-19117F8DC4A6">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 20:22:15 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_venta" id="E492C49B-9BB4-CC15-37F4-54430AB2C9A9">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 20:22:49 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="9C12A83B-152F-C7C3-AD6F-FAE5D9CC7C55">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 14:12:04 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_producto" id="678CDA83-EEE5-67B1-D6CE-3A74248871A6">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:36:25 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1971519-1E07-2276-68FB-6B8D3CDB481B" referredColumn="01AE85B0-9965-85FD-2D69-5A6FA31C31E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0769FDC3-5D0E-E50D-9354-FBC2D526CCE2" name="producto_pk">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-03 20:32:19 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C12A83B-152F-C7C3-AD6F-FAE5D9CC7C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CA6511D-49CD-5DA7-55CF-F4376178373F" name="cod_tipo_producto_FK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 19:36:58 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="678CDA83-EEE5-67B1-D6CE-3A74248871A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

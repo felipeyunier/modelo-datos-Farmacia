@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79C13DEF-26DC-89B1-227C-732184E9383E" schemaObject="24EED176-9DA1-06E5-DE00-9A609A574EA5" name="cod_tipo_producto">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 14:12:37 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="BB3D4D6D-3F99-8172-EC72-7D0056143679">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 14:13:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="01AE85B0-9965-85FD-2D69-5A6FA31C31E6">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 14:14:19 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="FE0B85A1-9A64-B8D6-00E6-8D91BC624302">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 14:16:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08541891-21A6-6C25-5C8F-F7ABFDA6FA0A" name="tipo_producto_PK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-04 14:13:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01AE85B0-9965-85FD-2D69-5A6FA31C31E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
