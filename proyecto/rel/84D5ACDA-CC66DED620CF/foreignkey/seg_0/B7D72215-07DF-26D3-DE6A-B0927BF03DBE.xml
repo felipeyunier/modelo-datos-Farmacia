@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2E0EF0A-750B-02AC-6BFB-05EB82EE1458" containerWithKeyObject="96CF47B7-A07B-3CBA-AC67-6FF99B99B80C" localFKIndex="B70848BC-C85F-D9EC-10E5-6D66B9F25436" name="tipo_moneda_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7D72215-07DF-26D3-DE6A-B0927BF03DBE" containerWithKeyObject="30CF1513-71A6-6800-75BF-41A90C724919" localFKIndex="54578370-B5C6-B837-2B87-B25B60CB34B3" name="cod_tipo_moneda_FK">
 <createdBy>fpalacio</createdBy>
-<createdTime>2018-07-04 19:45:37 UTC</createdTime>
+<createdTime>2018-07-06 18:19:51 UTC</createdTime>
 <ownerDesignName>proyecto</ownerDesignName>
 <referredTableLongName>datos.cod_tipo_moneda</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

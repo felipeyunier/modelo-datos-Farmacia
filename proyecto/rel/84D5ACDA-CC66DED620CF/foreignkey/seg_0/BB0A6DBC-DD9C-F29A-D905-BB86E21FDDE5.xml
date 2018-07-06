@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66F45087-2AE5-0551-901B-38ED22A057F5" containerWithKeyObject="EC06C655-6AC3-FB01-8AA0-AF20BAF67530" localFKIndex="06C29A40-E61D-9E4A-7F9F-8A9E2E131617" name="proveedor_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB0A6DBC-DD9C-F29A-D905-BB86E21FDDE5" containerWithKeyObject="BDFF257C-1360-6BE9-5804-05C3AF0AEE7E" localFKIndex="6710444C-C0BC-DC1C-1640-8FE02B67998D" name="proveedor_FK">
 <createdBy>fpalacio</createdBy>
-<createdTime>2018-07-04 19:05:22 UTC</createdTime>
+<createdTime>2018-07-06 18:22:55 UTC</createdTime>
 <ownerDesignName>proyecto</ownerDesignName>
 <referredTableLongName>datos.proveedor</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -108,6 +108,19 @@
 <colAssociation fkAssociation="E1971519-1E07-2276-68FB-6B8D3CDB481B" referredColumn="01AE85B0-9965-85FD-2D69-5A6FA31C31E6"/>
 </associations>
 </Column>
+<Column name="tipo_moneda" id="508C3FD0-1EF9-56A7-A349-2E6BEACA14D0">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-06 18:19:51 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7D72215-07DF-26D3-DE6A-B0927BF03DBE" referredColumn="38F0D1F5-DEFE-4516-521A-9717A5E2657C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0769FDC3-5D0E-E50D-9354-FBC2D526CCE2" name="producto_pk">
@@ -129,6 +142,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="678CDA83-EEE5-67B1-D6CE-3A74248871A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54578370-B5C6-B837-2B87-B25B60CB34B3" name="cod_tipo_moneda_FK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-06 18:19:51 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="508C3FD0-1EF9-56A7-A349-2E6BEACA14D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

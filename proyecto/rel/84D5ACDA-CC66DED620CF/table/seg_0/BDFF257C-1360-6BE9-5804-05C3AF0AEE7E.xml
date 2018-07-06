@@ -55,6 +55,20 @@
 <colAssociation fkAssociation="0AD9FF49-AEA2-0AD1-254D-EC4A320DDA9F" referredColumn="865B72AD-CC8D-BFC5-C83A-5A340262CF2E"/>
 </associations>
 </Column>
+<Column name="proveedor" id="146E55BD-748E-D7F9-2966-613E96E43162">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-06 18:22:55 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB0A6DBC-DD9C-F29A-D905-BB86E21FDDE5" referredColumn="57185E42-177D-B6A0-D67B-22F223CF7A80"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="549855EF-E900-3760-97A8-40AC15781866" name="operacion_PK">
@@ -76,6 +90,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2DA208F7-C81D-CEB3-2257-40AD1A97C57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6710444C-C0BC-DC1C-1640-8FE02B67998D" name="proveedor_FK">
+<createdBy>fpalacio</createdBy>
+<createdTime>2018-07-06 18:22:55 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="146E55BD-748E-D7F9-2966-613E96E43162"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
